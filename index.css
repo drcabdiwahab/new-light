@@ -199,5 +199,7 @@ section a {
   }
   section a {
     grid-template-columns: 1fr;
+    position: relative;
+    z-index: 999;
   }
 }
