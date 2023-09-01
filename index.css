@@ -53,7 +53,7 @@ section button + button {
 	display: block;
 }
 .ovrly {
-	position: absolute;
+	position: fixed;
 	inset: 0;
 	background: #e4e9e16a;
 }
@@ -171,3 +171,55 @@ section a {
 .usr {
 	display: none;
 }
+
+@media (max-width: 425px) {
+  header {
+    right: -180px;
+  }
+  .c {
+    left: -90%;
+  }
+  .buy {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .c {
+    left: -80%;
+  }
+}
+
+@media (max-width: 320px) {
+  header {
+    right: -230px;
+  }
+  .c {
+    left: -70%;
+  }
+  section a {
+    width: 200px;
+    margin: 0.5rem;
+  }
+}
+/* section { */
+  /* grid-template-columns: 1fr; */
+  /* overflow: hidden; */
+  /* margin-left: 0.5rem; */
+  /* margin-left: 0;
+  position: relative;
+  left: 0.5rem; */
+  /* margin-left: 0; */
+/* } */
+/* section a { */
+  /* display: block;
+  margin-left: 1rem; */
+  /* position: relative;
+  left: 1rem; */
+  /* width: 200px;
+  margin: 0.5rem;
+} */
+/* section img {
+  width: 150px;
+  height: 150px;
+} */
