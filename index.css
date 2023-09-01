@@ -182,6 +182,10 @@ section a {
   .buy {
     margin-left: 1rem;
   }
+  section a {
+    position: relative;
+    z-index: 999;
+  }
 }
 
 @media (max-width: 375px) {
@@ -199,7 +203,5 @@ section a {
   }
   section a {
     grid-template-columns: 1fr;
-    position: relative;
-    z-index: 999;
   }
 }
