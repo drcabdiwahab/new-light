@@ -198,28 +198,6 @@ section a {
     left: -70%;
   }
   section a {
-    width: 200px;
-    margin: 0.5rem;
+    grid-template-columns: 1fr;
   }
 }
-/* section { */
-  /* grid-template-columns: 1fr; */
-  /* overflow: hidden; */
-  /* margin-left: 0.5rem; */
-  /* margin-left: 0;
-  position: relative;
-  left: 0.5rem; */
-  /* margin-left: 0; */
-/* } */
-/* section a { */
-  /* display: block;
-  margin-left: 1rem; */
-  /* position: relative;
-  left: 1rem; */
-  /* width: 200px;
-  margin: 0.5rem;
-} */
-/* section img {
-  width: 150px;
-  height: 150px;
-} */
