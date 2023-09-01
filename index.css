@@ -126,7 +126,7 @@ s {
 		box-shadow: -5px 4px 6px #eee;
 	}
 	header:has(nav.db) {
-		z-index: 1;
+		z-index: 2;
 	}
 	:has(nav.db) .ovrly {
 		display: block;
@@ -177,14 +177,14 @@ section a {
     right: -180px;
   }
   .c {
-    left: -90%;
+    left: -89%;
   }
   .buy {
     margin-left: 1rem;
   }
   section a {
     position: relative;
-    z-index: 999;
+    z-index: 1;
   }
 }
 
