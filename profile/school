@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DR BIRIQ ONLINE School Profile</title>
+</head>
+<body>
+    <header>
+        <h1>DR BIRIQ ONLINE School</h1>
+        <!-- <p>Your School's Motto</p> -->
+        <p>Learn by done</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#programs">Academic Programs</a></li>
+            <!-- Add more navigation links -->
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p><!-- Your -->THe school's mission, history, and values.</p>
+            <section id="about">
+        <!-- <h2>About Us</h2> -->
+        <p>At DR BIRIQ ONLINE School, we are committed to inspiring individual growth and academic excellence within an inclusive community. Our mission is to foster strong relationships and set high expectations for both students and educators. We believe that education goes beyond textbooks—it's about nurturing curious minds, fostering creativity, and preparing students for a rapidly changing world.</p>
+        <!-- Add other content (values, motto, history) -->
+        <br>
+        <h2>Our Mission</h2>
+        <p>At DR BIRIQ ONLINE School, we are committed to inspiring individual growth and academic excellence within an inclusive community. Our mission is to foster strong relationships and set high expectations for both students and educators. We believe that education goes beyond textbooks—it’s about nurturing curious minds, fostering creativity, and preparing students for a rapidly changing world.</p>
+        <br>
+        <h2>Our Core Values</h2>
+        <p>
+            Our core values guide everything we do:
+
+Honesty: We uphold the highest standards of integrity, transparency, and truthfulness.
+Kindness: We treat everyone with empathy, compassion, and respect.
+Respect: We value diversity, appreciate different perspectives, and create a welcoming environment.
+Responsibility: We empower our students to take ownership of their learning journey.
+        </p>
+        <br><h3>Our Motto</h3>
+        <p>Discimus Agere Agendo” — We learn to do by doing. This motto encapsulates our belief in experiential learning, where students actively engage in real-world experiences to deepen their understanding.</p>
+        <br><h3>Our History</h3>
+        <p>
+DR BIRIQ ONLINE School has a rich legacy dating back to 1903. Originally founded to educate children living at the ISLAMIC Orphans’ Home, it quickly expanded to welcome neighborhood children as well. Over the years, DR BIRIQ ONLINE School has evolved into one of the most revered and respected independent schools in our community. Our commitment to excellence remains unwavering.</p>
+    </section>
+    </section>
+
+    <!-- <div class="profile-card">
+    <img src="teacher-photo.jpg" alt="Teacher Photo">
+    <h3>John Doe</h3>
+    <p>Math Teacher</p>
+    <p>Email: john.doe@example.com</p> -->
+    <!-- Add other relevant details -->
+</div>
+
+    <!-- Add more sections (e.g., Faculty, Admission, Student Life, Facilities) -->
+
+    <footer>
+        <p>© 2024 DR BIRIQ ONLINE School</p>
+    </footer>
+</body>
+</html>
+
+<style>
+    /* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #0d580d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #8ca74d;
+    padding: 10px 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8ca74d;
+    color: #fff;
+}
+
+</style>
