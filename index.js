@@ -14,3 +14,11 @@ if (prce && p) {
   const [discount, price] = prce.split(" ")
   p.innerHTML = `${price} <s>${discount}</s>`;
 }
+
+document.onload = () => {
+  // if(location.pathname.includes([])
+  const l = location.pathname.split("/").filter(l => l.trim() !== "")
+  if(["school", "buy", "index"].includes(l[l.length-1]) == false) {
+    location = "/404"
+  }
+}
